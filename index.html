@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b0b0f"><link rel="manifest" href="manifest.json">
+<title>IPTV Reader</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header><div class="brand">IPTV <span>Reader</span></div><button id="refresh">↻</button></header>
+  <main id="content"></main>
+  <nav>
+    <button data-tab="home" class="active">⌂<small>Accueil</small></button>
+    <button data-tab="live">▶<small>TV</small></button>
+    <button data-tab="movies">◉<small>Films</small></button>
+    <button data-tab="series">▦<small>Séries</small></button>
+    <button data-tab="favorites">♥<small>Favoris</small></button>
+  </nav>
+</div>
+<div id="modal" class="hidden"></div>
+<script src="app.js"></script>
+</body>
+</html>
